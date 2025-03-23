@@ -1,0 +1,56 @@
+modLoader="kotlinforforge"
+loaderVersion="[5.6,)"
+license="All Rights Reserved"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+modId="thebrokenscript"
+version="1.9.3+mc1.21.1-unofficial-alpha.10"
+displayName="The Broken Script"
+#updateJSONURL="https://change.me.example.invalid/updates.json"
+#displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+#logoFile="examplemod.png"
+#credits=""
+authors=":wendigodrip:"
+description='''Here I am.'''
+
+[[mixins]]
+config="thebrokenscript.mixins.json"
+
+#[[accessTransformers]]
+#file="META-INF/accesstransformer.cfg"
+
+[[dependencies.thebrokenscript]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.100,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.thebrokenscript]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21.1]"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.thebrokenscript]]
+    modId = "kotlinforforge"
+    type = "REQUIRED"
+    versionRange = "[5.7.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.thebrokenscript]]
+    modId = "fzzy_config"
+    type = "REQUIRED"
+    versionRange = "[0.6.5+1.21+neoforge,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.thebrokenscript]]
+    modId = "geckolib"
+    type = "REQUIRED"
+    versionRange = "[4.7.3,)"
+    ordering = "NONE"
+    side = "BOTH"
